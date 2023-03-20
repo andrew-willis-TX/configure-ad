@@ -14,7 +14,10 @@
 <h2> Steps to Configuration and Deployment </h2>
 
 - Create a Virtual Machine using Windows Server 2022 as the image. This will be our Domain Controller (DC-1).
+<img src="https://i.imgur.com/vCOaCLU.png" height="50%" width="50%" alt="DC-1 Setup"/>
+
 - Create a Vitual Machine using Windows 10 Pro as the image. This will be a client machine (Client-1).
+<img src="https://i.imgur.com/Ja7LoRM.png" height="50%" width="50%" alt="Client-1 Setup"/>
 - Set the Domain Controller's Network Interface Private IP Address to static.
 - Log in to Client-1 using Remote Desktop. Ping the Private IP Address of DC-1. This request should time out. 
 - Log in to DC-1 using Remote Desktop. Enable ICMPv4 on the server's firewall.
