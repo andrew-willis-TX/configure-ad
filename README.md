@@ -3,10 +3,12 @@
 <h2> Environment and Technology </h2>
 
 - Microsoft Azure
+- Active Directory
 - Powershell
+
 <h2> Operating Systems </h2>
 
-- Windows Server 20222
+- Windows Server 2022
 - Windows 10 Pro
 
 <h2> Steps to Configuration and Deployment </h2>
