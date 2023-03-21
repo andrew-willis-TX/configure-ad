@@ -55,6 +55,9 @@
 - Create an organizational unit called "_CLIENTS" and drag Client-1 into the new folder.
 <img src="https://i.imgur.com/txJ7htq.png" height="50%" width="50%" alt="Moving Client-1 machine into the _CLIENTS OU"/>
 
-- Using the new Admin employee credentials, log in to Client-1 and allow domain users to access Remote Desktop. 
-- Use Powershell to run a script to create many additional users.
+- Using the new Admin employee credentials, log in to Client-1 and allow domain users to access Remote Desktop.
+<img src="https://i.imgur.com/sY8blo1.png" height="50%" width="50%" alt="Allowing all users to access DC-1 Client Machines remotely"/>
+
+- Use Powershell to run a script that creates additional users. Make sure to run Powershell as an Administrator.
+<img src="https://i.imgur.com/o26hURI.png" height="50%" width="50%" alt="Using script to create new users"/>
 
