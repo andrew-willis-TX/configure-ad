@@ -18,7 +18,10 @@
 
 - Create a Vitual Machine using Windows 10 Pro as the image. This will be a client machine (Client-1).
 <img src="https://i.imgur.com/Ja7LoRM.png" height="50%" width="50%" alt="Client-1 Setup"/>
+
 - Set the Domain Controller's Network Interface Private IP Address to static.
+<img src="https://i.imgur.com/X4odscV.png" height="50%" width="50%" alt="DC-1 Networking Settings"/>
+<img src="https://i.imgur.com/y7bP3Bn.png" height="50%" width="50%" alt="DC-1 IP Settings"/>
 - Log in to Client-1 using Remote Desktop. Ping the Private IP Address of DC-1. This request should time out. 
 - Log in to DC-1 using Remote Desktop. Enable ICMPv4 on the server's firewall.
 - Install a new Active Directory Forest on DC-1 and promote server to Domain Controller.
