@@ -13,14 +13,17 @@
 
 <h2> Steps to Configuration and Deployment </h2>
 
-<p>1. Create a Virtual Machine using Windows Server 2022 as the image. This will be our Domain Controller (DC-1).  
-  
-<img src="https://i.imgur.com/vCOaCLU.png" height="50%" width="50%" alt="DC-1 Setup"/></p><br />
+1. Create a Virtual Machine using Windows Server 2022 as the image. This will be our Domain Controller (DC-1).  
 
-- Create a Vitual Machine using Windows 10 Pro as the image. This will be a client machine (Client-1).
+<p align="center">
+<img src="https://i.imgur.com/vCOaCLU.png" height="50%" width="50%" alt="DC-1 Setup"/>
+</p>
+
+2. Create a Vitual Machine using Windows 10 Pro as the image. This will be a client machine (Client-1).  
+
 <img src="https://i.imgur.com/Ja7LoRM.png" height="50%" width="50%" alt="Client-1 Setup"/>
 
-- Set the Domain Controller's Network Interface Private IP Address to static.
+3. Set the Domain Controller's Network Interface Private IP Address to static.
 <img src="https://i.imgur.com/X4odscV.png" height="50%" width="50%" alt="DC-1 Networking Settings"/>
 <img src="https://i.imgur.com/y7bP3Bn.png" height="50%" width="50%" alt="DC-1 IP Settings"/>
 
