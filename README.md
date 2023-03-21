@@ -53,6 +53,8 @@
 <img src="https://i.imgur.com/7QuT063.png" height="50%" width="50%" alt="Joining Client-1 to mydomain.com"/>
 
 - Create an organizational unit called "_CLIENTS" and drag Client-1 into the new folder.
+<img src="https://i.imgur.com/txJ7htq.png" height="50%" width="50%" alt="Moving Client-1 machine into the _CLIENTS OU"/>
+
 - Using the new Admin employee credentials, log in to Client-1 and allow domain users to access Remote Desktop. 
 - Use Powershell to run a script to create many additional users.
 
