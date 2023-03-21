@@ -22,9 +22,17 @@
 - Set the Domain Controller's Network Interface Private IP Address to static.
 <img src="https://i.imgur.com/X4odscV.png" height="50%" width="50%" alt="DC-1 Networking Settings"/>
 <img src="https://i.imgur.com/y7bP3Bn.png" height="50%" width="50%" alt="DC-1 IP Settings"/>
+
 - Log in to Client-1 using Remote Desktop. Ping the Private IP Address of DC-1. This request should time out. 
+<img src="https://i.imgur.com/ctgZkqB.png" height="50%" width="50%" alt="Pinging DC-1"/>
+
 - Log in to DC-1 using Remote Desktop. Enable ICMPv4 on the server's firewall.
+<img src="https://i.imgur.com/vpwBrTJ.png" height="50%" width="50%" alt="Enabling echo requests"/>
+
 - Install a new Active Directory Forest on DC-1 and promote server to Domain Controller.
+<img src="https://i.imgur.com/z7LoGb6.png" height="50%" width="50%" alt="Creating new active directory forest"/>
+<img src="https://i.imgur.com/lDGnjhj.png" height="50%" width="50%" alt="Promote server to domain controller"/>
+
 - Within Active Directory Users and Computers, create a new Organizational Unit called "_EMPLOYEES".
 - Within Active Directory Users and Computers, create a new Organizational Unit called "_ADMINS".
 - Create a new employee and give that employee Admin privileges. 
