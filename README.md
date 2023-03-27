@@ -1,4 +1,8 @@
 <h1> Configuration and Deployment of Active Directory </h1>
+In this lab exercise we explore the setup process for creating a new Active Directory Forest and users for our domain.
+
+<p align="center">
+<img src="https://logowik.com/content/uploads/images/microsoft-active-directory5035.jpg" height="25%" width="25%" alt="Microsoft Active Directory Logo"/>
 
 <h2> Environment and Technology </h2>
 
